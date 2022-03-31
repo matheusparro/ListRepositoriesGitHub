@@ -1,0 +1,73 @@
+.content{
+
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  max-width: 250px;
+  margin-top: 30vh;
+}
+
+.UserInput{
+  border-style: none;
+  height: 2rem;
+  padding:1rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: 100%;
+
+}
+
+form{
+  display: grid;
+  align-items: center;
+}
+
+img{
+  height:200px;
+  width:200px;
+}
+.logoCenter{
+  display: flex;
+    justify-content: center;
+    margin-bottom:1rem;
+}
+.buttonLogin{
+  width: 100%;
+  height: 3rem;
+  margin-top:0.6rem;
+}
+
+.button-62 {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,244,106) 0%, rgba(88,196,223,1) 100%);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgb(221, 210, 51), .125rem .125rem 1rem rgb(56, 178, 209);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgb(221, 208, 19), .125rem .125rem 1rem rgb(46, 213, 255);
+}
